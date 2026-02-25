@@ -1,0 +1,12 @@
+name = "exchat-worker"
+main = "src/index.ts"
+compatibility_date = "2024-02-08"
+compatibility_flags = ["nodejs_compat"]
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "CHAT_HISTORY"
+id = "your-kv-namespace-id"
+preview_id = "your-kv-namespace-preview-id"
